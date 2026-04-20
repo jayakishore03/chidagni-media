@@ -245,7 +245,7 @@ const Home = () => {
 
                     <aside className="news-stack">
                         <div className="section-title">
-                            <h2 style={{ fontSize: '1.2rem', borderLeft: '3px solid var(--accent-gold)', paddingLeft: '12px', marginBottom: '10px' }}>Quick Intel</h2>
+                            <h2 style={{ fontSize: '1.5rem', borderLeft: '3px solid var(--accent-gold)', paddingLeft: '12px', marginBottom: '10px' }}>Quick Intel</h2>
                         </div>
                         {politicsArticles.slice(1, 4).map(art => (
                             <Link key={art.id} to={`/politics/${art.id}`} className="card-small">

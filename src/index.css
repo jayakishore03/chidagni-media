@@ -58,7 +58,7 @@
 
 html {
     scroll-behavior: smooth;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 body {
@@ -488,8 +488,8 @@ img {
 }
 
 .card-featured-img {
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 280px;
     border-radius: 12px;
     overflow: hidden;
     flex-shrink: 0;
@@ -507,14 +507,14 @@ img {
 }
 
 .card-featured-content h1 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     line-height: 1.2;
     margin-bottom: 12px;
     color: var(--primary-indigo);
 }
 
 .card-featured-content p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: var(--text-meta);
     line-height: 1.5;
 }
@@ -552,8 +552,8 @@ img {
 }
 
 .card-small-img {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     border-radius: 8px;
     overflow: hidden;
     flex-shrink: 0;
@@ -572,7 +572,7 @@ img {
 }
 
 .card-small-content h3 {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     color: var(--text-main);
     line-height: 1.3;
     margin-top: 2px;
@@ -580,8 +580,8 @@ img {
 
 .card-small-content .badge {
     margin-bottom: 0px;
-    padding: 4px 8px;
-    font-size: 0.55rem;
+    padding: 4px 10px;
+    font-size: 0.7rem;
     width: fit-content;
 }
 
@@ -1044,7 +1044,7 @@ img {
 }
 
 .feed-item-img {
-    height: 220px;
+    height: 260px;
     overflow: hidden;
 }
 
@@ -1068,14 +1068,14 @@ img {
 
 .feed-item-body h3 {
     font-family: var(--font-heading);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     line-height: 1.25;
     margin-bottom: 12px;
     color: var(--primary-indigo);
 }
 
 .feed-item-body p {
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     color: var(--text-meta);
     margin-bottom: 20px;
     flex-grow: 1;
